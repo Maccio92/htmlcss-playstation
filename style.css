@@ -1,0 +1,45 @@
+:root{
+    --black: var(--black);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top{
+    height: 30px;
+}
+.header-bottom{
+    height: 100px;
+}
+.logo img{
+  width: 60px
+}
+.dropdown-menu{
+    width: 100vw;
+    text-align: center;
+}
+
+.bg-black{
+    background-color: var(--black);
+    color: white;
+}
+.bg-img{
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.banner-logo{
+    width: 250px;
+}
+@media screen and (max-width:991.98px) {
+    .banner-logo{
+        width: 350px;
+    }
+}
+.jumbotron .row{
+    height: 90%;
+}
+.text-white{
+    color: white;
+}
