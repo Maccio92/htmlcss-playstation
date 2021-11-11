@@ -7,9 +7,6 @@ body{
 .header-top{
     height: 30px;
 }
-.header-bottom{
-    height: 100px;
-}
 .logo img{
   width: 60px
 }
@@ -38,3 +35,16 @@ body{
 .text-white{
     color: white;
 }
+.my_thumb{
+    width: 100%;
+    padding: 3px;
+}
+.rounded-4{
+    border-radius: 1rem;
+}
+.my_thumb:hover{
+    cursor: pointer;
+}
+.my_thumb:active {
+    box-shadow: 0 0 0 4px skyblue;
+} 
