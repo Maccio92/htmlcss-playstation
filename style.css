@@ -13,11 +13,6 @@ body{
 .logo img{
   width: 60px
 }
-.dropdown-menu{
-    width: 100vw;
-    text-align: center;
-}
-
 .bg-black{
     background-color: var(--black);
     color: white;
