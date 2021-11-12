@@ -2,7 +2,6 @@
     --black: var(--black);
 }
 body{
-    overflow: hidden;
     font-family: Helvetica, sans-serif;
 }
 .header-top{
