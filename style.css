@@ -2,6 +2,7 @@
     --black: var(--black);
 }
 body{
+    overflow: hidden;
     font-family: Helvetica, sans-serif;
 }
 .header-top{
@@ -37,7 +38,6 @@ body{
 }
 .bg-footer{
     background-color: #00439c ;
-    height: 500px;
 }
 /* Jumbotron */
 .jumbo-logo{
@@ -66,6 +66,10 @@ body{
 }
 .thumb-footer{
     width: 3%;
+    margin-right: 5px;
+}
+.sony-footer{
+    width: 20%;
 }
 /* Add BS class */
 .rounded-4{
