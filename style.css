@@ -24,11 +24,7 @@ body{
 .banner-logo{
     width: 250px;
 }
-@media screen and (max-width:991.98px) {
-    .banner-logo{
-        width: 350px;
-    }
-}
+
 .jumbotron .row{
     height: 90%;
 }
@@ -55,3 +51,14 @@ body{
 .mt-6{
     margin-top: 6rem;
 }
+.btn-primary, .btn-danger{
+    border: 0;
+}
+/* MediaQ */
+
+@media screen and (max-width:991.98px) {
+    .banner-logo{
+        width: 350px;
+    }
+}
+
