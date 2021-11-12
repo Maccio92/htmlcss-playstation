@@ -7,9 +7,8 @@ body{
 .header-top{
     height: 30px;
 }
-.logo img{
-  width: 60px
-}
+
+/* Background */
 .bg-black{
     background-color: var(--black);
     color: white;
@@ -19,22 +18,56 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 600px;
 }
-.banner-logo{
+.first-banner{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.second-banner{
+    background-color: #bebcbb ;
+    height: 400px;
+}
+.third-banner{
+    background-color: #161c3b ;
+    height: 400px;
+}
+.bg-footer{
+    background-color: #00439c ;
+    height: 500px;
+}
+/* Jumbotron */
+.jumbo-logo{
     width: 250px;
 }
 
-.jumbotron .row{
-    height: 90%;
+.jumbotron .row, 
+.first-banner .row, 
+.second-banner .row,
+.third-banner .row{
+    height: 100%;
 }
-.text-white{
-    color: white;
-}
+/* IMG */
+.logo img{
+    width: 60px
+  }
 .my_thumb{
     width: 100%;
     padding: 3px;
 }
+.thumb{
+    width: 100%;
+}
+.plus-thumb{
+    height: 400px;
+}
+.thumb-footer{
+    width: 3%;
+}
+/* Add BS class */
 .rounded-4{
     border-radius: 1rem;
 }
@@ -51,7 +84,11 @@ body{
 .mt-6{
     margin-top: 6rem;
 }
-.btn-primary, .btn-danger{
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.btn-primary, .btn-danger, .btn-light{
     border: 0;
 }
 /* MediaQ */
