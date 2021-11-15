@@ -136,19 +136,16 @@ body{
     border: 0;
 }
 .btn-primary:hover{
-    border: -2px solid #2d64e6;
-    box-shadow: inset 0px 0px 0px 2px white;
-    box-sizing: border-box;
+    box-shadow: 0 0 0 2px white,0 0 0 4px #2d64e6;
 }
 .btn-danger:hover{
-    border: -1px solid #cd3d0f;
-    box-shadow: inset 0px 0px 0px 2px black;
-    box-sizing: border-box;
+    box-shadow: 0 0 0 2px black,0 0 0 4px red;
 }
 .btn-light:hover{
-    border: -1px solid #d9d9db;
-    box-shadow: inset 0px 0px 0px 2px #bebcbb ;
-    box-sizing: border-box;
+    box-shadow: 0 0 0 2px  #bebcbb,0 0 0 4px #d9d9db;
+}
+.btn-dark:hover {
+    box-shadow: 0 0 0 2px var(--color-white),0 0 0 4px var(--color-black);
 }
 /* MediaQ */
 
